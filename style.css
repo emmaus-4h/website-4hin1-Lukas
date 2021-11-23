@@ -8,7 +8,9 @@ img {
 }
 
 /* Basislayout */
-
+* {
+  overflow: auto;
+}
 html, body {
     height: 100%;
     padding: 0;
@@ -45,20 +47,25 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+img.links {
     float: left;
     margin-right: 15px;
+    margin-left: 10px;
+    
 }
 
-img.lakaka {
+img.rechts {
     float: right;
-    margin-right: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    
 }
 
 img.midden {
 display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
 }
   
   
