@@ -10,6 +10,7 @@ img {
 /* Basislayout */
 * {
   overflow: auto;
+  box-sizing: border-box;
 }
 html, body {
     height: 100%;
@@ -51,10 +52,12 @@ footer {
 
 /* specifieke stijlen */
 
+
 img.links {
     float: left;
     margin-right: 15px;
     margin-left: 10px;
+    width: calc( 100% - 10px - 15px);
     
 }
 
@@ -86,6 +89,18 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.tekstrechtsboven {
+  float: right;
+  width: 400px
+}
+
+.plaatjelinksboven {
+  float: left;
+ width: 30%;
+
+}
+
 
 
 /* navigatiebalk */
