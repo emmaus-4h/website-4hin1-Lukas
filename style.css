@@ -7,6 +7,12 @@ img {
   border: dotted 2px black;
 }
 
+p {
+  border: dotted 2px green;
+
+}
+
+
 /* Basislayout */
 * {
   overflow: auto;
@@ -33,6 +39,7 @@ article {
     text-align: justify;
     padding-left: 10px;
 padding-right: 10px;
+
 }
 
 
@@ -52,7 +59,7 @@ footer {
 
 /* specifieke stijlen */
 
-
+/*
 img.links {
     float: left;
     margin-right: 15px;
@@ -74,7 +81,7 @@ display: block;
   margin-right: auto;
   margin-bottom: 15px;
 }
-  
+  */
   
 
 .smalltext {
@@ -90,19 +97,36 @@ a:hover {
     text-decoration: underline;
 }
 
-.tekstrechtsboven {
-  float: right;
-  width: 400px
+p {
+ 
 }
 
 .plaatjelinksboven {
   float: left;
- width: 30%;
-
+  width: 30%;
+}
+.plaatjerechts {
+  float: right;
+  width: 30%;
+}
+img {
+  width:100%;
+  
 }
 
+.tekstrechtsboven {
+  float: right;
+  width: 70%;
+}
 
+.tekstlinks {
+  float: left;
+  width: 70%;
+}
 
+.tekst {
+  color: orange;
+}
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
