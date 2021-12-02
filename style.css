@@ -106,11 +106,12 @@ p {
 
 .plaatjelinksboven {
   float: left;
-  
+margin-top: 25px;
   width: calc( 40% - 10px)
 }
 .plaatjerechts {
   float: right ;
+  margin-top: 110px;
   width: calc( 40% - 10px);
 }
 img {
@@ -131,7 +132,7 @@ img {
 }
 
 .tekst {
-  color: orange;
+  
 }
 /* navigatiebalk */
 nav ul {
