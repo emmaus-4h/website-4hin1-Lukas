@@ -22,7 +22,7 @@ p {
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(255, 248, 240);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -106,12 +106,12 @@ p {
 
 .plaatjelinksboven {
   float: left;
-margin-top: 25px;
+
   width: calc( 40% - 10px)
 }
 .plaatjerechts {
   float: right ;
-  margin-top: 110px;
+
   width: calc( 40% - 10px);
 }
 img {
